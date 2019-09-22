@@ -1,16 +1,3 @@
-# mono-repos-demo
-
----
-
-title: Config multi-project với monorepos, lerna, yarn
-path: /multi-project-monorepos-lerna-yarn
-author: 'thongdo'
-date: Sun Sep 22 2019 11:33:22 GMT+0700 (Indochina Time)
-summary: Config multi-project với monorepos, lerna, yarn
-tags: ['configuration']
-
----
-
 `Mono repos` một repository chứa nhiều hơn một project trong nó. Các project này có thể không liên quan đến nhau, kết hợp một cách lỏng lẻo hoặc kết nối bằng các công cụ quản lý phụ thuộc(`package.json`).
 
 ### `1. Tạo thư mục mono folder`
@@ -127,3 +114,7 @@ When a command fails, all logs are written to lerna-debug.log in the current wor
 ```
 
 ### `4 Tham khảo`
+
+- https://medium.com/swlh/building-a-multi-cra-using-lerna-and-monorepo-4628de405c6b
+- https://github.com/thongdo2101/mono-repos-demo/
+- https://github.com/lerna/lerna
